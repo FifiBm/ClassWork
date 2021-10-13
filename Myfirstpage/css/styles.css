@@ -1,0 +1,70 @@
+h1{
+  
+    color:rgb(37, 5, 5);
+
+}
+h1:hover{color:darkred;}
+
+p{
+    font-size-adjust: 1.5em;
+}
+body{
+    background-color:cadetblue;
+}
+img{
+    width: 100%;
+    margin-block-start: 0cm;
+}
+a{
+    display:block;
+    width:100%;
+    padding:25px;
+    background-color: darkorchid;
+    box-sizing: border-box;
+    text-align: center;
+    color: darkred;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: darkblue;
+    color: darkorchid;
+}
+
+
+/* i am working*/
+
+#work{
+
+    background-color:cyan;
+    width:40%;
+    margin:auto;
+    border: 10px solid rgb(20, 5, 5);
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+#text{
+    padding: 50px;
+}
+#work div.list{
+    border:2px solid black;
+    display: inline-block;
+    width:40%;
+    background-color: white;
+}
+
+#work div.list h3{
+    background-color: blueviolet;
+    color: cornflowerblue;
+    padding: 10px;
+}
+
+#work div.list li{
+ margin-bottom: 20px;
+}
+
+#work div.list li:last-child{
+    font-weight: bold;
+}
+    
